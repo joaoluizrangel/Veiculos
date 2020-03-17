@@ -1,0 +1,20 @@
+package exe4_teste;
+import exe4.*;
+public class exe4_atributos {
+	public static void main (String[] args) {
+		System.out.println("Moto:");
+		Moto p = new Moto("Mercedez", "MV Agusta F3 800", "Gasolina");
+		p.apresentarMoto();
+		
+		System.out.println("");
+		System.out.println("Carro:");
+		
+		Carro c = new Carro("Mercedez", "A5 Sportback Prestige", "Gasolina");
+		c.apresentarCarro();
+		
+		System.out.println("");
+		System.out.println("Caminhão: ");
+		Caminhao a = new Caminhao("Merceedez", "Caminhão 1113", "Gasoslina");
+		a.apresentarCaminhao();
+	}
+}
